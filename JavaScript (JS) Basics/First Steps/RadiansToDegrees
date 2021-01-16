@@ -1,0 +1,6 @@
+function angleConvert (radians) {
+    let solveDegrees = radians*180/Math.PI
+    let result = solveDegrees.toFixed(0);
+    console.log(result)
+}
+angleConvert("3.1416")
