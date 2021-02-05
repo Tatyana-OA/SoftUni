@@ -1,0 +1,27 @@
+function solve(word) {
+  let sum = 0;
+  for (let i = 0; i < word.length; i += 1) {
+    let currentIndex = word[i];
+    switch (currentIndex) {
+      case "a":
+        sum += 1;
+        break;
+      case "u":
+        sum += 5;
+        break;
+      case "e":
+        sum += 2;
+        break;
+      case "o":
+        sum += 4;
+        break;
+      case "i":
+        sum += 3;
+        break;
+    }
+  }
+
+  console.log(sum);
+}
+
+solve("mama");
