@@ -1,0 +1,40 @@
+
+  {{!A title will be given in each controller.}}
+
+  {{!Make sure links start with the folder set for express files ('static').}}
+
+{{!Body will render each and every view as per controller.}}
+{{!DELETE everything but the content in the main in all other templates.}}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <link href="/static/css/site.css" type="text/css" rel="stylesheet">
+  <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.png' />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <ul>
+        <li><img class="logo" src="/static/images/logo.png"></li>
+        <li><a href="/">Browse</a></li>
+        <li><a href="/create">Add a Cube</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </header>
+    <main>
+        
+     {{{body}}}
+
+    </main>
+  </div>
+  <footer>&copy; Cubicle: Exercise for Express.js and Handlebars</footer>
+</body>
+
+</html>
