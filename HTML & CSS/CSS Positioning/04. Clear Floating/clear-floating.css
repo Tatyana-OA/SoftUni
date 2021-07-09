@@ -1,0 +1,43 @@
+body
+{
+margin: 10px;
+    padding: 0;
+    width: 50%;
+    clear:both;
+
+}
+header, footer {
+    background: #8B603D;
+    padding: 20px;
+    border: 2px solid #4B4B4B;
+}
+.clearfix {
+    display: inline-flex;
+}
+.left {
+    float:left;
+    margin-left: 0;
+}
+.right {
+    float:right;
+    margin-left: 30px;
+    width: 80%;
+
+}
+footer {
+    clear:both;
+}
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+li {
+    background:	#35B5E6;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    color: white;
+}
+p {
+    text-wrap: normal;
+}
