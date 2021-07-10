@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.content article:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+body{
+   font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color:#333333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("car-future.jpg");
+    background-size: cover;
+    height: 700px;
+}
+header h1 {
+    font-size: 80px;
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 80px 0 0 20px;
+    font-weight: 900;
+    color:#b38575;
+    text-transform: uppercase;
+
+}
+nav
+{
+    margin: 20px;
+    Float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 7px;
+    height: 20px;
+    line-height: 20px;
+}
+
+li {
+    display:inline-block;
+    text-decoration: none;
+}
+nav a {
+    text-transform: uppercase;
+}
+
+a, a:link, a:active, a:visited {
+    color: #333;
+   padding: 5px 7px 10px 7px;
+    font-size: 1em;
+    font-weight:  bold;
+    text-decoration:none;
+}
+a:hover {
+    color: #b38575;
+}
+section {
+    Padding-Left: 25px;
+    Padding-Right: 25px;
+    text-align:justify;
+}
+section article {
+    Margin-Bottom: 20px;
+}
+article img {
+    Width: 350px;
+    Height: 260px;
+    Margin-Right: 15px;
+    float: left;
+}
+article p {
+   font-size: 18px;
+    Color: #333333;
+    Margin: 0;
+    Padding: 20px;
+}
+p:first-of-type:first-letter {
+    font-size: 32px;
+    Color: #b38575;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+h2 {
+    Font-Weight: 900;
+    Color: #b38575;
+    Margin-Bottom: 20px;
+    text-transform: uppercase;
+}
+footer
+{
+    Background-Color: #ccc;
+}
+footer span {
+    display: block;
+    Padding: 10px;
+    Color: #333333;
+    text-align: center;
+}
