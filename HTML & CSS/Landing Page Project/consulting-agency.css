@@ -1,0 +1,224 @@
+header {
+    background-image:url("Layer-759_02.jpg");
+    width: 100%;
+    height: 735px;
+    position: absolute;
+}
+nav {
+    background: #B7945A;
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    opacity: 0.8;
+    position: relative;
+    top: 20px;
+
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+
+    }
+a {
+    text-decoration:none;
+    color: white;
+}
+.sliderh1, .sliderh2 {
+    text-align: center;
+    color:white;
+}
+.sliderh1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 140px;
+}
+.sliderh2 {
+    padding-top: 40px;
+    width: 25%;
+    margin: auto;
+    font-size: 25px;
+}
+button {
+margin-left: 700px;
+    margin-top:40px;
+    text-transform: uppercase;
+    background: black;
+    padding: 10px;
+    color: white;
+    border:none;
+}
+button::after {
+    content: ">"
+}
+button:hover {
+    background:#B7945A;
+    color: black;
+}
+
+.industry {
+    background: white;
+    position: relative;
+    top: 740px;
+}
+.industries {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 20px;
+}
+.travel, .business, .consumer, .financial, .energy, .surface {
+    display: inline-block;
+    width: 25%;
+    padding: 30px;
+    margin-left: 63px;
+}
+.industry h4 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.industry p {
+    width: 80%;
+    display: inline-block;
+}
+
+.line {
+    position: relative;
+    top: 800px;
+    background-image: url("steel-bg.jpg");
+    height: 160px;
+    opacity: 0.7;
+}
+.line h3 {
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-size: 25px;
+}
+.line h3:first-of-type {
+    font-weight: 700;
+
+    color: orange;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.line h3:last-of-type {
+    font-weight: 700;
+    color:white;
+    font-size: 25px;
+}
+
+
+.traders {
+    position:relative;
+    top:800px;
+    height: 250px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("background-choose-us.jpg");
+    margin: auto;
+}
+.traders h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.traders article
+{
+    border: 2px solid orange;
+    color:white;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+
+}
+.traders article h2 {
+    text-align: center;
+    padding: 10px;
+}
+.traders article p {
+    text-align: justify;
+    padding: 10px;
+}
+.testimonials {
+    background-image:url("consulting-woman.jpg");
+    position: relative;
+    top:  800px;
+    height: 600px;
+}
+
+.card {
+    background:rgba(255,255,255,0.7);
+    float:right;
+    width: 30%;
+    position:relative;
+    top: 150px;
+    height: 400px;
+    margin: 30px;
+    padding: 40px;
+}
+.amanda {
+    background: rgba(0,0,0,1);
+    color:white;
+    margin: 20px;
+    height: 300px;
+}
+.card .opinion::before, .card .opinion::after {
+    content: "''"
+}
+
+.upletters {
+    text-align: right;
+    color: grey;
+    padding: 10px;
+}
+.name {
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.partnerline {
+    position:relative;
+    top:800px;
+    text-align:center;
+}
+
+footer {
+    position:relative;
+    top: 850px;
+    background: black;
+    display: flex;
+}
+footer h1 {
+    color: white;
+    font-weight: 800;
+    margin: 40px;
+}
+footer ul {
+    display: list-item;
+
+}
+footer .ulleft {
+    float: left;
+    width: 30%;
+}
+footer  .ulright {
+
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+footer .widget{
+    width:40%;
+    margin-left: 350px;
+    padding: 50px;
+}
+
+
