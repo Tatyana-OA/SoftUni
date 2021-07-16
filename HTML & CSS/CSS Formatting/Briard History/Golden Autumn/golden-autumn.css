@@ -1,0 +1,96 @@
+body{
+   background: #bc6c09;
+}
+header {
+    Margin-top: 45px;
+}
+li {
+    display: inline-block;
+    float:right;
+    padding-top: 55px;
+}
+ a {
+     text-decoration: none;
+     padding: 35px;
+     border:3px double orange;
+     margin: 25px;
+     color: yellow;
+     background: none;
+     border-radius: 15%;
+     text-transform: uppercase;
+ }
+ img {
+     Width : 100%;
+     Height: 100%;
+ }
+ p
+ {
+     Color : black;
+     Font-size : 18px;
+ }
+h1 {
+    display: inline;
+    border: double;
+    padding: 5px;
+    color: #00d5f2;
+    font-style:italic;
+    Font-size:46px;
+}
+main article div {
+    border: double 1px greenyellow;
+    border-radius: 15px;
+    Padding:15px;
+    margin:10px;
+}
+article
+{
+    Height: 900px;
+    Padding: 20px;
+    Margin-top : 100px;
+    Background: #e0ac1d;
+    border-radius: 15px;
+    Text-align: justify;
+    Text-justify: inter-word;
+
+}
+article div figure
+{
+    Border: 3px solid #142830;
+    Float: right;
+    Height: 320px;
+    Width: 530px;
+    Margin-left: 15px;
+}
+figure {
+    float:right;
+    Height: 320px;
+    Width: 530px;
+
+}
+button {
+    Border: 2px dashed;
+    Border-Color: #685d50;
+    Background: #bcbc09;
+    Color :yellow;
+    Width: 120px;
+    Height: 80px;
+    margin-left: 350px;
+     margin-top: 25px;
+    text-transform: uppercase;
+
+}
+a:hover, button:hover {
+    Color: red;
+    Background: #e8f3f4;
+    font-style:Italic;
+
+}
+footer {
+    Border: dotted greenyellow;
+    border-radius: 10px;
+    Color: yellow;
+    text-align: center;
+    Margin: 10px;
+    text-transform: uppercase;
+
+}
