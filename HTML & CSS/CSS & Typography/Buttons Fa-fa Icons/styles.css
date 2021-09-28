@@ -1,0 +1,31 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+
+body {
+	width:8%;
+	padding:50px;
+}
+p.green {
+	background-color: green;
+	margin:auto;
+	padding:5px;
+}
+.green a {
+	margin:auto;
+}
+
+p.orange {
+	background-color: orange;
+	margin:auto;
+	padding:5px;
+}
+.orange a {
+	margin:auto;
+}
+.fas {
+	margin-right:5px;
+	margin-left:5px;
+}
+p {
+	color:white;
+}
