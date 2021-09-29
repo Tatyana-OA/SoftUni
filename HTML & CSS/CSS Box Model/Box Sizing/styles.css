@@ -1,0 +1,22 @@
+html {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+	box-sizing: inherit;
+
+}
+
+section {
+	width: 250px;
+	height: 250px;
+	border: 3px dotted turquoise;
+}
+p {
+	max-width:100%;
+	width: 100%;
+	border: 3px solid blue;
+	padding:20px;
+	
+}
