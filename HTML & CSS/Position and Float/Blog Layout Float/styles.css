@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+	
+}
+body {
+	width: 60%;
+	margin:auto;
+	background-color: rgb(238, 238, 238);
+}
+
+p.site-title {
+	display:inline-block;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+img.right {
+	float:right;
+	border: 3px solid rgb(0, 0, 0);
+	padding: 3px;
+	box-shadow:rgba(0, 0, 0, 0.25);
+	background-color:rgb(255, 255, 255)  ;
+}
+img.left {
+	float:left;
+	border: 3px solid rgb(0, 0, 0);
+	padding: 3px;
+	box-shadow:rgba(0, 0, 0, 0.25);
+	background-color:rgb(255, 255, 255)  ;
+}
+blockquote {
+	float:right;
+	width:50%;
+	border-left:3px solid black;
+	padding-left:30px;
+}
+
+aside{
+	float:right;
+	width:20%;
+	margin-left:30px;
+}
+main {
+	float:left;
+	width:75%;
+}
+a {
+	color:green;
+}
+blockquote {
+	font-family: Georgia, serif;
+}
+h1,h2,h3 {
+	font-family: Georgia, serif;
+	font-size:1em;
+}
