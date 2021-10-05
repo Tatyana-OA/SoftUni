@@ -1,0 +1,32 @@
+
+html {
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+button {
+    font: inherit;
+}
+
+h1 {
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+h1, p {
+    padding-bottom: 1.5em;
+}
+.card {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+.viewport:first-of-type {
+	background-color:teal;
+}
+.viewport {
+	background-color:rgb(128, 0, 105);
+}
