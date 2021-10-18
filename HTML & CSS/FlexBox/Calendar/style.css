@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+section {
+	display: flex;
+	align-items: center;
+}
+.container {
+	display: flex;
+	max-width: 65vw;
+}
+span {
+	border: 1px solid black;
+}
+.notes {
+	display: flex;
+	flex-direction: column;
+}
