@@ -1,0 +1,18 @@
+body,
+ul,
+li {
+	display: flex;
+}
+ul {
+	justify-content: space-between;
+}
+img {
+	background-color: white;
+	padding: 25px;
+	border: 1px, solid, black;
+}
+.section{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
