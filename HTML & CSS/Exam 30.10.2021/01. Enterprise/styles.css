@@ -1,0 +1,66 @@
+body {
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	background-color: white;;
+  }
+  *,
+  *::before,
+  *::after {
+	box-sizing: border-box;
+  }
+  main {
+	  display:flex;
+	  background-color: #F6F8F9;
+	  width:75%;
+	  border-radius:10px;
+	  margin: 40px auto;
+	  height:440px;
+  }
+  .descriptive-right {
+	  margin-top:80px;
+	  width:60%;
+	  padding: 0px 60px;
+	  margin-left:20px;
+  }
+  .image-part {
+	  margin-top:100px;
+  }
+  .image-part img {
+	  height:340px;
+	  margin-left: 30px;
+  }
+  .upper-title {
+	font-size: 10px;
+	color:#29323F;
+  }
+  .main-title {
+	margin-top: 13px;
+	font-weight: 400;
+	color:#29323F;
+  }
+
+.descr-para {
+	width: 71%;
+    line-height: 1.5em;
+	color:#6e6f70;
+}
+.asana-btns {
+	margin-top: 30px;
+}
+.contact-btn, .learn-btn {
+	padding: 10px 20px;
+	margin-right:7px;
+}
+.contact-btn {
+	background-color:#7573F6;
+	color:white;
+	border: 1px solid #7573F6;
+	border-radius:3px;
+}
+.learn-btn {
+	background-color:white;
+	color:rgb(41, 39, 39);
+	border: 1px solid rgb(5, 5, 5);
+	border-radius:3px;
+	font-weight:500
+}
